@@ -1,72 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elevate Sphere</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElevateSphere class</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>XI.10 SMAN 5 MATARAM</h1>
-      <ul>
-        <li><a href="#home">Beranda</a></li>
-        <li><a href="#about">Tentang</a></li>
-        <li><a href="#services">Layanan</a></li>
-        <li><a href="#contact">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section id="home">
-      <div class="hero">
-        <h2>Selamat Datang di Website Elevate Sphere</h2>
-        <p>Temukan informasi menarik tentang kami di sini.</p>
-        <a href="#about" class="btn">Pelajari lebih lanjut</a>
-      </div>
-    </section>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Welcome to Our Class XI.10 Website</h1>
+                <p>Elevate Sphere</p>
+            </div>
+        </section>
 
-    <section id="about">
-      <div class="content">
-        <h2>Tentang Kami</h2>
-        <p>"ElevateSphere" menggambarkan aspirasi kelompok ini untuk mencapai ketinggian dan kesempurnaan dalam segala hal. "Elevate" berarti meningkatkan atau mengangkat, sementara "Sphere" melambangkan keseluruhan atau cakupan luas. Nama ini mencerminkan tujuan kelompok untuk tumbuh, berinovasi, dan mempengaruhi lebih banyak hal dalam lingkup yang luas.</p>
-      </div>
-    </section>
+        <section id="about">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>"ElevateSphere" menggambarkan aspirasi kelompok ini untuk mencapai ketinggian dan kesempurnaan dalam segala hal. "Elevate" berarti meningkatkan atau mengangkat, sementara "Sphere" melambangkan keseluruhan atau cakupan luas. Nama ini mencerminkan tujuan kelompok untuk tumbuh, berinovasi, dan mempengaruhi lebih banyak hal dalam lingkup yang luas.</p>
+            </div>
+        </section>
 
-    <section id="services">
-      <div class="content">
-        <h2>Layanan Kami</h2>
-        <p>Kami Menyediakan Layanan :</p>
-        <p>Merima Jasa Joki Tugas</p>
-        <p>Menerima Jasa Mengumpulkan Informasi</p>
-        <p>Layanan Selanjutnya, Mohon Untuk Menunggu </p>
-      </div>
-    </section>
+        <section id="portfolio">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="ES.jpg" alt="Project 1">
+                <img src="project2.jpg" alt="Project 2">
+                <img src="project3.jpg" alt="Project 3">
+            </div>
+        </section>
 
-    <section id="contact">
-      <div class="content">
-        <h2>Hubungi Kami</h2>
-        <p>Isi formulir di bawah ini untuk menghubungi kami.</p>
-        <form action="contact.php" method="POST">
-          <input type="text" name="name" placeholder="Nama Anda" required>
-          <input type="email" name="email" placeholder="Email Anda" required>
-          <textarea name="message" placeholder="Pesan Anda" required></textarea>
-          <button type="submit">Kirim</button>
-        </form>        
-      </div>
-    </section>
-  </main>
+        <section id="contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="contact.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+    </main>
 
-  <img src="" alt="Deskripsi gambar" width="300" height="200">
-
-  <footer>
-    <p>Hak Cipta &copy; @Zephyrusa_16</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 ElevateSphere Class</p>
+    </footer>
 </body>
 </html>
